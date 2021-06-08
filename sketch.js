@@ -40,7 +40,7 @@ function setup() {
   //600, 200
   bg = createSprite(displayWidth/2, displayHeight/2, displayWidth, displayHeight);
   bg.addImage(bg_image);
-  trex = createSprite(100, 800,20,50);
+  trex = createSprite(20, (displayHeight*9)/10,20,50);
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided", trex_collided);
   trex.scale = 0.3;
